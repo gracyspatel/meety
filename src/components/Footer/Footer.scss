@@ -1,0 +1,26 @@
+@import "../../App";
+
+.footer {
+  height: 300px;
+  background-color: rgba(218, 218, 218, 0.199);
+}
+
+.header-text-2 {
+  position: relative;
+  font-size: 39px;
+  text-align: center;
+  max-width: 400px;
+  margin-top: 25px;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.static {
+  position: absolute;
+  top: 72px;
+  left: 130px;
+}

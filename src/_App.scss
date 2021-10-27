@@ -20,3 +20,15 @@ $primary-color: rgb(15, 1, 39);
 .w-200 {
   width: 200px;
 }
+
+.w-300 {
+  width: 300px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  margin: 0;
+}
