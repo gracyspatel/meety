@@ -1,7 +1,22 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&family=Zen+Antique&display=swap");
 
-body {
-  font: 100% $font-stack;
+$font-stack: "Raleway";
+$primary-color: rgb(15, 1, 39);
+
+* {
+  font-family: $font-stack;
   color: $primary-color;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-200 {
+  width: 200px;
 }

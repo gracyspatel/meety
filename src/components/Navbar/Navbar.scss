@@ -1,0 +1,14 @@
+@import "../../App";
+
+.wrapper {
+  display: flex;
+  height: 80px;
+  background-color: transparent;
+  padding: 0 120px;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    font-size: 28px;
+  }
+}
