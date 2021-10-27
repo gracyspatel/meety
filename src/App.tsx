@@ -1,10 +1,11 @@
 import React from "react";
-import Button from "./components/Button/Button";
+// import Button from "./components/Button/Button";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Button type='primary' label='Log In' />
+      <Navbar />
     </div>
   );
 };
