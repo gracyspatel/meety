@@ -1,0 +1,30 @@
+@import "../../App";
+
+.grid {
+  padding: 80px 120px;
+  display: grid;
+}
+
+.col-2 {
+  grid-template-columns: 60% 40%;
+}
+
+.header-text {
+  font-size: 59px;
+  max-width: 500px;
+}
+
+.normal-text {
+  padding-top: 35px;
+  max-width: 500px;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+span {
+  color: red;
+}
+
+.button-bar {
+  margin-top: 35px;
+}

@@ -5,11 +5,12 @@ type buttonType = "primary" | "outlined" | "unstyled";
 interface buttonProp {
   label: string;
   type: buttonType;
-  loading: boolean;
+  loading?: boolean;
+  onClickFunction?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 const Button = (props: buttonProp) => {
-  const { label, type, loading } = props;
+  const { label, type, loading, onClickFunction } = props;
 
   const getLoader = () => {
     return (
@@ -25,7 +26,11 @@ const Button = (props: buttonProp) => {
   };
 
   return (
-    <button disabled={loading} className={[type, "btn"].join(" ")}>
+    <button
+      disabled={loading}
+      className={[type, "btn"].join(" ")}
+      onClick={onClickFunction}
+    >
       {props.loading ? getLoader() : label}
     </button>
   );
