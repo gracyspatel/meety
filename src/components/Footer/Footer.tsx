@@ -1,6 +1,4 @@
 import "./Footer.scss";
-
-import React from "react";
 import Button from "../Button/Button";
 
 const Footer = () => {
@@ -26,10 +24,14 @@ const Footer = () => {
         </div>
       </div>
       <p style={{ textAlign: "center", margin: "50px 0" }}>Powered By </p>
-      <div className='flex center'>
-        <Button label={"✨ Webstark"} type={"unstyled"} />
-        &nbsp;&nbsp;&nbsp;
-        <Button label={"💎 Twirfy"} type={"unstyled"} />
+      <div className='center'>
+        <div>
+          <Button label={"✨ Webstark"} type={"unstyled"} />
+          &nbsp;&nbsp;&nbsp;
+          <Button label={"💎 Twirfy"} type={"unstyled"} />
+          &nbsp;&nbsp;
+          <Button label={"🪐 Cristie UI"} type={"unstyled"} />
+        </div>
       </div>
     </div>
   );
