@@ -15,7 +15,7 @@ const Navbar = () => {
           <Button type='outlined' label='Log In' loading={false} />
         </div>
         <div>
-          <Button type='primary' label='Sing Up' loading={false} />
+          <Button type='primary' label='Sign Up' loading={false} />
         </div>
       </div>
     </div>
