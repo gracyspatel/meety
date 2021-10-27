@@ -1,0 +1,18 @@
+@import "../../App";
+
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 22px;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.outlined {
+  border: 2px solid;
+}
+
+.primary {
+  background-color: $primary-color;
+  color: white;
+}
