@@ -32,3 +32,12 @@ $primary-color: rgb(15, 1, 39);
 ::-webkit-scrollbar {
   margin: 0;
 }
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.vertical-spacer {
+  height: 50px;
+}
